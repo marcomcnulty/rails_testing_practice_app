@@ -1,0 +1,7 @@
+{
+  "ruby.useLanguageServer": true,
+  "ruby.lint": {
+      "rubocop": false,
+      "standard": false
+  }
+}
