@@ -1,7 +1,15 @@
 {
-  "ruby.useLanguageServer": true,
+  "ruby.useLanguageServer": false,
+  "ruby.useBundler": false,
   "ruby.lint": {
+    "rubocop": {
       "rubocop": false,
-      "standard": false
-  }
+      "forceExclusion": false,
+      "useBundler": false
+    },
+    "reek": {
+      "useBundler": false
+    }
+  },
+  "ruby.format": "prettier",
 }
